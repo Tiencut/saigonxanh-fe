@@ -1,0 +1,9 @@
+﻿.mobile-data-status, .mobile-data-empty, .mobile-data-error { padding:16px; font-size:14px; line-height:1.5; color:#64748b; }
+.mobile-data-error { color:#b91c1c; background:#fef2f2; }
+.mobile-data-error button { margin-left:12px; border:1px solid currentColor; border-radius:4px; padding:4px 8px; }
+.mobile-phone-field { display:flex; flex-direction:column; gap:8px; margin-bottom:16px; font-size:14px; }
+.mobile-phone-field input { width:100%; padding:10px 12px; border:1px solid #cbd5e1; border-radius:6px; background:#fff; }
+.mobile-history-list { display:grid; gap:12px; }
+.mobile-history-item { display:flex; justify-content:space-between; gap:12px; padding:14px; border-bottom:1px solid #e2e8f0; font-size:13px; }
+.mobile-history-item p, .mobile-history-item time { color:#64748b; font-size:12px; margin:6px 0; }
+.mobile-phone-field { margin:0 16px 16px; }

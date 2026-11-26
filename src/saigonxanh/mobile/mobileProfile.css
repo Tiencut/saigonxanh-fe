@@ -1,0 +1,116 @@
+.mobile-profile-real {
+  min-height: 100%;
+  background: #fff;
+  padding: 20px 16px;
+  color: #0f172a;
+}
+.mobile-profile-real > h1 {
+  font-size: 22px;
+  margin: 0 0 20px;
+}
+.mobile-profile-real .profile-header-card {
+  display: block;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 0 0 20px;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.profile-identity-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.mobile-profile-real .profile-avatar-circle {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #eaf5ed;
+  color: #15803d;
+  display: grid;
+  place-items: center;
+}
+.mobile-profile-real .profile-user-info {
+  display: grid;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+}
+.mobile-profile-real .profile-name {
+  font-size: 17px;
+  color: #0f172a;
+  margin: 0;
+}
+.mobile-profile-real .profile-email {
+  color: #64748b;
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+.mobile-profile-real .profile-badge-row {
+  color: #15803d;
+  font-size: 12px;
+  margin: 0;
+}
+.mobile-profile-real .btn-login-round {
+  margin: 14px 0 0 60px;
+  min-height: 40px;
+}
+.mobile-profile-real .profile-menu-list {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+}
+.mobile-profile-real .menu-item-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 0;
+  min-height: 52px;
+  border: 0;
+  border-bottom: 1px solid #edf2ee;
+  border-radius: 0;
+  background: #fff;
+  color: #334155;
+  text-align: left;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+.mobile-profile-real .menu-item-link > span {
+  flex: 1;
+}
+.mobile-profile-real .menu-item-link > svg {
+  flex-shrink: 0;
+  color: #64748b;
+}
+.mobile-profile-real .menu-item-link > svg:last-child {
+  width: 17px;
+  color: #94a3b8;
+}
+.mobile-profile-real .menu-item-link:hover {
+  background: #f8faf9;
+}
+.mobile-profile-real .menu-item-link.is-danger {
+  color: #b91c1c;
+}
+.mobile-profile-real .menu-item-link.is-danger > svg:first-child {
+  color: #b91c1c;
+}
+.mobile-profile-real :is(button, a):focus-visible {
+  outline: 2px solid #008344;
+  outline-offset: 2px;
+}

@@ -1,0 +1,94 @@
+.kol-partners-page .kol-partners-heading {
+  max-width: 760px;
+}
+.kol-partners-heading h1 {
+  margin: 0 0 14px;
+  font-size: 28px;
+  line-height: 1.35;
+  color: #0b1533;
+}
+.kol-partners-heading p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #64748b;
+}
+.kol-partners-page .coop-item-body h2 {
+  margin: 0 0 5px;
+  font-size: 17px;
+  line-height: 1.45;
+  font-weight: 700;
+  color: #0f172a;
+}
+.kol-partners-empty {
+  padding: 32px 0;
+  color: #64748b;
+  font-size: 14px;
+}
+@media (max-width: 767px) {
+  .sgx-web-container .kol-partners-page {
+    padding: 24px 16px 32px;
+  }
+  .kol-partners-heading h1 {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  .kol-partners-heading p {
+    font-size: 14px;
+    line-height: 1.65;
+  }
+  .kol-partners-page .cooperate-showcase-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-top: 20px;
+  }
+  .kol-partners-page .coop-item {
+    display: grid;
+    grid-template-columns: 96px minmax(0, 1fr);
+    align-items: start;
+    gap: 14px;
+    padding: 16px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #e5ece8;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .kol-partners-page .coop-item:first-child {
+    padding-top: 0;
+  }
+  .kol-partners-page .coop-item:last-child {
+    border-bottom: 0;
+  }
+  .kol-partners-page .coop-item:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  .kol-partners-page .coop-item-img-wrap {
+    width: 96px;
+    height: 116px;
+    aspect-ratio: auto;
+    border-radius: 8px;
+  }
+  .kol-partners-page .coop-item:hover img {
+    transform: none;
+  }
+  .kol-partners-page .coop-item-body {
+    padding: 0;
+    min-width: 0;
+  }
+  .kol-partners-page .coop-item-body h2 {
+    font-size: 15px;
+    line-height: 1.45;
+  }
+  .kol-partners-page .coop-item-role {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 7px;
+    color: #15803d;
+  }
+  .kol-partners-page .coop-item p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+}

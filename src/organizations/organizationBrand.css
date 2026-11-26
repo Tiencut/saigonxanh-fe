@@ -1,0 +1,17 @@
+.sgx-logo-brand .sgx-header-logo { width:160px; height:52px; max-width:40vw; object-fit:contain; }
+.sgx-footer .footer-logo { width:180px; height:70px; object-fit:contain; }
+.organization-branding { max-width:1000px; }
+.organization-branding h2 { margin:0 0 8px; font-size:24px; }
+.organization-branding p { color:#64748b; line-height:1.6; }
+.organization-branding label { display:grid; gap:8px; color:#334155; font-size:14px; font-weight:600; }
+.organization-branding input { width:100%; padding:10px 12px; border:1px solid #cbd5e1; border-radius:6px; background:#fff; color:#0f172a; box-sizing:border-box; }
+.organization-branding input:focus-visible { outline:2px solid #15803d; outline-offset:2px; }
+.organization-branding .brand-name { max-width:480px; margin:24px 0; }
+.organization-logo-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; padding:24px 0; border-top:1px solid #e2e8f0; }
+.organization-logo-preview { display:grid; place-items:center; height:130px; border:1px solid #dbe3e9; background:#fff; margin:0 0 16px; border-radius:6px; padding:16px; }
+.organization-logo-preview.dark { background:#142b43; }
+.organization-logo-preview img { width:100%; max-height:110px; object-fit:contain; }
+.organization-branding .upload-label { margin-top:12px; font-weight:400; }
+.organization-branding .brand-actions { display:flex; gap:16px; align-items:center; margin-top:16px; }
+.organization-branding [role=alert] { color:#b91c1c; }
+@media(max-width:900px) { .organization-logo-grid {grid-template-columns:1fr;} .organization-branding h2 {font-size:22px;} }

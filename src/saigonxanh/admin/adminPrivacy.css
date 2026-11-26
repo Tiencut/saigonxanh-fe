@@ -1,0 +1,77 @@
+.admin-account-privacy {
+  background: #fff;
+  padding: 24px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  color: #334155;
+}
+.admin-account-privacy > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.admin-account-privacy h2 {
+  font-size: 20px;
+  margin: 0;
+}
+.admin-account-privacy > p {
+  max-width: 900px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #64748b;
+}
+.admin-account-privacy article {
+  padding: 20px 0;
+  border-top: 1px solid #e2e8f0;
+}
+.admin-privacy-identity {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.admin-account-privacy h3 {
+  font-size: 16px;
+  margin: 0;
+}
+.admin-account-privacy article :is(strong, time) {
+  display: block;
+  font-size: 13px;
+  margin-top: 6px;
+}
+.admin-account-privacy article time,
+.admin-privacy-identity span {
+  color: #64748b;
+  font-size: 13px;
+}
+.admin-account-privacy article p {
+  font-size: 14px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.admin-account-privacy button {
+  padding: 9px 12px;
+  min-height: 40px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background: #fff;
+  color: #0f172a;
+  cursor: pointer;
+}
+.admin-account-privacy button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.admin-privacy-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.admin-account-privacy .admin-privacy-success {
+  color: #166534;
+}
+.admin-account-privacy .admin-privacy-error {
+  color: #b91c1c;
+}

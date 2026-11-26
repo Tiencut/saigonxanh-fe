@@ -1,0 +1,19 @@
+.team-directory { --team-green: #70bd70; }
+.team-directory .team-tabs-bar { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; border: 1px solid var(--team-green); border-radius: 8px; background: #f5f5f5; overflow: hidden; margin: 24px 0 32px; }
+.team-directory .team-tabs-bar button { bottom: 0; padding: 17px 12px; color: #28723d; text-transform: uppercase; font-size: 14px; border: 0; border-radius: 6px; }
+.team-directory .team-tabs-bar button.active { background: var(--team-green); color: #10391d; border: 0; }
+.team-directory .team-tabs-bar button:hover { background: #e0f1e1; }
+.team-directory .team-tabs-bar button.active:hover { background: var(--team-green); }
+.team-directory button:focus-visible, .team-directory [role=tabpanel]:focus-visible { outline: 2px solid #166534; outline-offset: 3px; }
+.team-directory .team-members-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px; }
+.team-directory .member-photo { border-radius: 10px; background: #f1f5f3; }
+.team-directory .member-card h4 { font-size: 15px; line-height: 1.5; }
+.team-photo-fallback { display: flex; height: 100%; align-items: center; justify-content: center; flex-direction: column; gap: 8px; color: #64748b; font-size: 13px; }
+.team-directory [role=tabpanel] > p { padding: 24px 0 48px; color: #64748b; }
+@media (max-width: 1023px) { .team-directory .team-members-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; } }
+@media (max-width: 767px) {
+  .team-directory .team-tabs-bar { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-bottom: 24px; }
+  .team-directory .team-tabs-bar button { font-size: 12px; padding: 14px 6px; }
+  .team-directory .team-members-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 14px; }
+  .team-directory .member-card h4 { font-size: 14px; }
+}

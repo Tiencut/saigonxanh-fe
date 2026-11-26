@@ -1,0 +1,52 @@
+.mobile-home { background: #f6f8f7; min-height: 100%; padding: 0 16px 20px; }
+.mobile-home-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 20px 0 16px; }
+.mobile-home-brand { display: flex; align-items: center; gap: 10px; }
+.mobile-home-brand img { width: 44px; height: 40px; object-fit: contain; }
+.mobile-home-brand strong { display: block; color: #166534; font-size: 17px; font-weight: 750; line-height: 1.4; }
+.mobile-home-brand span { display: block; color: #64748b; font-size: 11px; margin-top: 2px; }
+.mobile-home-account { display: grid; place-items: center; width: 42px; height: 42px; flex-shrink: 0; border: 1px solid #dde7e1; border-radius: 50%; color: #166534; background: #fff; }
+.mobile-home-welcome { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; justify-content: space-between; margin: 0 0 14px; }
+.mobile-home-welcome p { margin: 0; font-size: 13px; color: #475569; overflow-wrap: anywhere; }
+.mobile-home-welcome button { display: inline-flex; align-items: center; gap: 4px; padding: 3px 0; color: #15803d; border: 0; background: none; font-size: 12px; font-weight: 600; }
+.mobile-home-search { display: flex; align-items: center; gap: 9px; background: #fff; border: 1px solid #dce5df; border-radius: 9px; padding-left: 12px; color: #64748b; margin: 0 0 14px; }
+.mobile-home-search input { flex: 1; min-width: 0; background: transparent; border: 0; padding: 12px 0; outline: none; color: #0f172a; font-size: 14px; }
+.mobile-home-search button { background: none; border: 0; height: 44px; width: 42px; display: grid; place-items: center; color: #166534; }
+.mobile-home-map { display: flex; align-items: center; gap: 12px; width: 100%; text-align: left; padding: 15px 12px; margin: 0 0 24px; background: #eaf5ed; border: 1px solid #d5e9dc; border-radius: 10px; color: #166534; }
+.mobile-home-map-icon { width: 40px; height: 40px; display: grid; place-items: center; background: #fff; border-radius: 8px; flex-shrink: 0; }
+.mobile-home-map>span:nth-child(2) { flex: 1; min-width: 0; }
+.mobile-home-map strong { display: block; font-size: 14px; font-weight: 650; }
+.mobile-home-map small { display: block; font-size: 11px; color: #547960; margin-top: 3px; line-height: 1.5; }
+.mobile-home-section { margin-bottom: 24px; }
+.mobile-home-section-heading { display: flex; justify-content: space-between; gap: 10px; align-items: center; margin-bottom: 12px; }
+.mobile-home-section-heading h2 { margin: 0; font-size: 17px; font-weight: 700; color: #0f172a; }
+.mobile-home-section-heading p { margin: 4px 0 0; color: #64748b; font-size: 11px; }
+.mobile-home-section-heading button { display: inline-flex; align-items: center; gap: 2px; border: 0; background: none; padding: 8px 0 8px 8px; white-space: nowrap; color: #166534; font-size: 12px; font-weight: 600; }
+.mobile-home-campaign { background: #fff; border: 1px solid #e1e8e4; border-radius: 12px; overflow: hidden; }
+.mobile-home-campaign-image { display: block; width: 100%; height: 154px; object-fit: cover; }
+.mobile-home-campaign-body { padding: 16px; }
+.mobile-home-campaign-meta { display: flex; gap: 10px; align-items: center; justify-content: space-between; font-size: 11px; }
+.mobile-home-campaign-meta>span { padding: 3px 7px; background: #edf8f0; color: #166534; border-radius: 4px; font-weight: 600; }
+.mobile-home-campaign-meta time { display: inline-flex; align-items: center; gap: 5px; color: #64748b; }
+.mobile-home-campaign h3 { margin: 12px 0 8px; font-size: 16px; line-height: 1.5; font-weight: 700; color: #0f172a; }
+.mobile-home-campaign-location { display: flex; align-items: flex-start; gap: 6px; margin: 0; color: #64748b; font-size: 12px; line-height: 1.6; }
+.mobile-home-campaign-location svg { flex-shrink: 0; margin-top: 3px; }
+.mobile-home-campaign-bottom { border-top: 1px solid #edf1ee; margin-top: 14px; padding-top: 14px; display: flex; align-items: center; gap: 12px; justify-content: space-between; }
+.mobile-home-campaign-bottom>span { display: inline-flex; align-items: center; gap: 5px; color: #64748b; font-size: 11px; }
+.mobile-home .btn-register-action { display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 10px 12px; min-height: 42px; border: 0; border-radius: 7px; background: #15803d; color: #fff; font-size: 13px; font-weight: 600; white-space: nowrap; }
+.mobile-home-leaderboard { padding: 0 14px; border: 1px solid #e1e8e4; border-radius: 10px; background: #fff; }
+.mobile-home-rank { display: flex; align-items: center; gap: 10px; padding: 14px 0; border-bottom: 1px solid #edf1ee; }
+.mobile-home-rank:last-child { border-bottom: 0; }
+.mobile-home-rank-number { width: 16px; flex-shrink: 0; font-size: 13px; font-weight: 650; color: #64748b; }
+.mobile-home-rank-avatar { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; background: #eef5f0; color: #547960; overflow: hidden; flex-shrink: 0; }
+.mobile-home-rank-avatar img { width: 100%; height: 100%; object-fit: cover; }
+.mobile-home-rank>strong { flex: 1; font-weight: 600; font-size: 13px; min-width: 0; overflow-wrap: anywhere; }
+.mobile-home-rank-points { display: inline-flex; align-items: center; gap: 4px; color: #15803d; font-size: 13px; font-weight: 600; }
+.mobile-home-rank-points small { color: #64748b; font-size: 10px; font-weight: 400; }
+.mobile-home-empty { background: #fff; border: 1px solid #e1e8e4; border-radius: 10px; padding: 24px 18px; text-align: center; color: #64806d; }
+.mobile-home-empty>svg { margin: 0 auto 12px; }
+.mobile-home-empty h3 { font-size: 14px; font-weight: 600; color: #334155; margin: 0 0 8px; }
+.mobile-home-empty p,.mobile-home-empty-copy,.mobile-home-loading { margin: 0; color: #64748b; font-size: 12px; line-height: 1.6; }
+.mobile-home-empty button { display: inline-flex; align-items: center; gap: 6px; color: #166534; background: none; border: 0; padding: 12px 0 0; font-size: 12px; font-weight: 600; }
+.mobile-home-empty-copy,.mobile-home-loading { padding: 20px 0; }
+.mobile-home a:focus-visible,.mobile-home button:focus-visible,.mobile-home input:focus-visible { outline: 2px solid #15803d; outline-offset: 3px; }
+@media(max-width:350px) { .mobile-home-campaign-bottom { flex-wrap: wrap; } .mobile-home .btn-register-action { width: 100%; } }
