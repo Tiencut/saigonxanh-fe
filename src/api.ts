@@ -1,6 +1,17 @@
 import { create } from 'zustand';
 import { detachPush } from './pwa/push-client';
-import type { UserView } from '@base/shared';
+export type UserView = {
+  id: string;
+  email: string;
+  name: string;
+  avatar: string | null;
+  locale: string;
+  active: boolean;
+  roles: string[];
+  permissions: string[];
+  totpEnabled: boolean;
+  emailVerifiedAt?: string | null;
+};
 export class ApiError extends Error {
   constructor(
     public code: string,

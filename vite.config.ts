@@ -4,14 +4,11 @@ import tailwindcss from '@tailwindcss/vite';
 import { VitePWA } from 'vite-plugin-pwa';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-const configPath = process.env.APP_CONFIG_PATH || new URL('../../app.config.json', import.meta.url);
+const configPath = process.env.APP_CONFIG_PATH || new URL('./app.config.json', import.meta.url);
 const config = JSON.parse(readFileSync(configPath, 'utf8'));
 export default defineConfig(({ mode }) => {
   const env = { ...loadEnv(mode, process.cwd(), 'VITE_'), ...process.env };
-  // Share the API's configured port, including when Vite is started on its own.
-  // Port 4000 may belong to another local project.
-  const apiEnv = loadEnv(mode, fileURLToPath(new URL('../api/', import.meta.url)), 'PORT');
-  const apiTarget = process.env.API_PROXY_URL || `http://127.0.0.1:${apiEnv.PORT || '4005'}`;
+  const apiTarget = process.env.API_PROXY_URL || env.VITE_API_URL || 'https://chungtayxanh.id.vn';
   const enabled = config.modules.pwa && env.VITE_ENABLE_PWA !== 'false';
   return {
     define: {

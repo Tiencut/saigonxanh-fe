@@ -1,0 +1,38 @@
+{
+  "project_name": "sai-gon-xanh",
+  "display_name": "Sài Gòn Xanh",
+  "domain": "chungtayxanh.id.vn",
+  "domain_aliases": ["www.chungtayxanh.id.vn", "saigonxanh.chungtayxanh.id.vn"],
+  "database": "sqlite",
+  "ports": {
+    "blue": 3022,
+    "green": 3023
+  },
+  "theme": {
+    "primary": "#15803d",
+    "background": "#ffffff"
+  },
+  "branding": {
+    "mark": "SGX",
+    "logo_url": "/images/trangChu/logo.png"
+  },
+  "modules": {
+    "auth": true,
+    "users": true,
+    "upload": true,
+    "notifications": true,
+    "realtime": false,
+    "pwa": false,
+    "email": false,
+    "jobs": false,
+    "import_export": false,
+    "search": true
+  },
+  "protected_urls": ["https://thooanh.duckdns.org/", "https://event-signature.duckdns.org/", "https://xeghepvn-admin.duckdns.org/"],
+  "vps": {
+    "host": "103.161.16.36",
+    "port": 26266,
+    "user": "root",
+    "fingerprint": "SHA256:KgNQOoD7aTCjJnsX2DRpFVzhbujEe61kwZcP9z+ZWgk"
+  }
+}
